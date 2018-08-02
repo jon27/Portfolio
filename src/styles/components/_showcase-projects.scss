@@ -6,6 +6,12 @@
 	text-align: center;
 	height: 80vh;
 }
+.project__title {
+	margin: 0 auto;
+	font-size: $font-size-title;
+	color: $tan;
+	padding: $m-size;
+}
 
 .project__row {
 	display: flex;
@@ -32,8 +38,21 @@
 	margin: 0 auto;
 }
 
+.other-projects-box {
+max-width: 30rem;
+margin: 0 auto;
+
+}
 .other-projects {
-	margin-top: $m-size;
+	margin-top: $l-size;
+	border: 1px solid $grain;
+	color: $grain;
+	padding: 0.4rem;
+}
+
+.other-projects:hover {
+	border: 1px solid $tan;
+	color: $tan;
 }
 
 .project-overlay {
@@ -65,13 +84,13 @@
 //OmniFood
 
 .omni {
-	background-image: url('/images/Expensify.png');
+	background-image: url('/images/omni.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .omni:hover {
-	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.png');
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/omni.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -127,13 +146,13 @@
 //Tik tac toe
 
 .tic {
-	background-image: url('/images/Expensify.png');
+	background-image: url('/images/weather.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .tic:hover {
-	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.png');
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/weather.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

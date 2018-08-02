@@ -3,9 +3,9 @@ import {Row, Col, Card, CardTitle} from 'react-materialize';
 import { Link } from 'react-router';
 
 const ShowcaseProjects = () => (
-	<div className="project-container">
+	<div id='projects' className="project-container">
 		<div>
-			<h3>Projects</h3>
+			<h3 className='project__title'>Projects</h3>
 		</div>
 		<div>
 			<div className='project__row'>
@@ -14,9 +14,9 @@ const ShowcaseProjects = () => (
 						<p className='project-overlay'>Expensify</p>
 					</div>
 				</a>
-				<a href='#' className='project__item omni project__box '>
+				<a href='#' className='project__item tic project__box '>
 					<div>
-						<p className='project-overlay'>OmniFood</p>
+						<p className='project-overlay'>Weather App</p>
 					</div>
 				</a>
 				<a href='#' className='project__item troll project__box '>
@@ -31,19 +31,19 @@ const ShowcaseProjects = () => (
 						<p className='project-overlay'>Drop the Beat</p>
 					</div>
 				</a>
-				<a href='#' className='project__item tic project__box '>
+				<a href='#' className='project__item omni project__box '>
 					<div>
-						<p className='project-overlay'>Tic tac toe</p>
+						<p className='project-overlay'>OmniFood</p>
 					</div>
 				</a>
 				<a href='#' className='project__item canvas project__box '>
 					<div>
-						<p className='project-overlay'>Canvs Drawing</p>
+						<p className='project-overlay'>Canvas Drawing</p>
 					</div>
 				</a>				
 			</div>
-			<div className='project__box other-projects'>
-				<a href='#'>Other Projects</a>
+			<div className='other-projects-box'>
+				<a className='other-projects' href='#'>Other Projects</a>
 			</div>
 		</div>
 	</div>

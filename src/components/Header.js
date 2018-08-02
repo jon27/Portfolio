@@ -8,9 +8,9 @@ export const Header = ({ startLogout }) => (
     <div className='header__container'>
       <div className='header__title'><h1>JON CABRE</h1></div>
       <div className='header__nav'>
-        <a href='#'>Bio</a>
-        <a href='#'>Skills</a>
-        <a href='#'>Projects</a>
+        <a href='#bio'>Bio</a>
+        <a href='#skills'>Skills</a>
+        <a href='#projects'>Projects</a>
       </div>
     </div>
   </header>
