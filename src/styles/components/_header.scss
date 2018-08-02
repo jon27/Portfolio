@@ -1,0 +1,45 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/images/Aj_Myself.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh;
+}
+
+.header__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: $s-size;
+
+}
+
+.header_nav {
+  margin-bottom: $m-size;
+  font-size: $font-size-large;
+}
+
+.header__nav a {
+  padding: 0 .9rem;
+  border: 2px solid $tan;
+  border-radius: 18%;
+  margin: $xs-size;
+}
+
+.header__nav a:visited {
+  color: white;
+}
+.header__nav a:hover {
+  border: 2px solid white;
+  color: $tan;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: 900;
+}

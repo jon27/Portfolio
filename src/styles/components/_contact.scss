@@ -1,0 +1,17 @@
+.contact__container {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.contact__content {
+	justify-content: center;
+		padding-bottom: 4rem;
+}
+
+.contact__item {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: $l-size;
+}

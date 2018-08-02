@@ -1,0 +1,46 @@
+.skills__title {
+	margin: 0 auto;
+	font-size: $font-size-title;
+}
+
+.skills {
+	text-align: center;
+	background: $grain;
+	margin: 0 auto;
+  padding-bottom: $m-size;
+  max-width: 80rem;
+  height: 55vh;
+}
+
+.skills-item p {
+	padding: 0;
+	margin: 0;
+}
+
+.skills-item {
+	color: $grain;
+	width: 25%;
+	margin: $s-size;
+	padding: $s-size;
+	font-size: 32px;
+}
+
+.skills-item img{
+	max-height: auto;
+	max-width: 32px;
+}
+
+.b{
+	background: $blackboard;
+}
+.o{
+	background: $oxblood;
+}
+.t{
+	background: $tan;
+}
+
+.skills-container {
+	display: flex;
+	height: 23vh;
+}

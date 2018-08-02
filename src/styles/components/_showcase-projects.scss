@@ -1,0 +1,167 @@
+.project-container {
+	background: $blackboard;
+	color: $tan;
+	margin: $m-size auto;
+	padding: $m-size;
+	text-align: center;
+	height: 80vh;
+}
+
+.project__row {
+	display: flex;
+	margin: 0.8vh auto;
+}
+
+.project_item img {
+	overflow: hidden;
+
+}
+
+.project__item {
+	display: flex;
+	align-items: flex-end;
+	width: 33%;
+	height: 30vh;
+	justify-content: center;
+	color: white;
+	margin: $m-size;
+	overflow: hidden;
+}
+
+.project__box {
+	margin: 0 auto;
+}
+
+.other-projects {
+	margin-top: $m-size;
+}
+
+.project-overlay {
+	opacity: 0;
+}
+
+
+// Expensify
+
+.exp {
+	background-image: url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.exp:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+
+	}
+}
+
+//OmniFood
+
+.omni {
+	background-image: url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.omni:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+
+	}
+}
+// Whack A Troll
+
+.troll {
+	background-image: url('/images/whack-a-troll.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.troll:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack-a-troll.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+
+	}
+}
+
+// Drummer
+
+.drum {
+	background-image: url('/images/drum.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.drum:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/drum.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+
+	}
+}
+
+//Tik tac toe
+
+.tic {
+	background-image: url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tic:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+
+	}
+}
+// Canvas Drawing
+
+.canvas {
+	background-image: url('/images/canvas.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.canvas:hover {
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/canvas.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	p {
+		opacity: 1;
+		font-size: $font-size-large;
+		color: black;
+
+	}
+}
