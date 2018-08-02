@@ -10,7 +10,7 @@ import PublicRoute from './PublicRoute';
 export const history = createHistory();
 
 const AppRouter = () => (
-  <Router history={history}>
+  <Router >
     <div>
       <Switch>
         <PublicRoute path="/" component={DashboardPage} />

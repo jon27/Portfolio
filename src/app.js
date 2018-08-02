@@ -18,7 +18,7 @@ const jsx = (
     <AppRouter />
   </Provider>
 );
-let hasRendered = false;
+let hasRendered = true;
 const renderApp = () => {
   if (!hasRendered) {
     ReactDOM.render(jsx, document.getElementById('app'));
@@ -26,7 +26,7 @@ const renderApp = () => {
   }
 };
 
-ReactDOM.render(<DashboardPage />, document.getElementById('app'));
+ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
