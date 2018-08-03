@@ -49,26 +49,3 @@ const ListSkills = () => (
 );
 
 export default ListSkills;
-
-
-		// 		<div className='skills-container'>
-		// 	<div  className='b skills-item'>
-		// 		<img src='/images/firebase.svg' />
-		// 		<Icon size={32} icon={fire} />
-		// 		<p>Firebase</p>
-		// 	</div>
-		// 	<div className='o skills-item'>
-		// 		<img src='/images/redux.svg' />
-		// 		<p>Redux</p>
-		// 	</div>
-		// 	<div className='t skills-item'>
-		// 		<img src='/images/yarn.svg' />
-		// 		<Icon size={32} icon={ic_devices} />
-		// 		<p>Yarn</p>
-		// 	</div>
-		// 	<div className='b skills-item'>
-		// 		<img src='/images/webpack-icon.svg' />
-		// 		<Icon size={32} icon={code} />
-		// 		<p>Webpack</p>
-		// 	</div>
-		// </div>

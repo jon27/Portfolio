@@ -104,13 +104,13 @@ margin: 0 auto;
 // Whack A Troll
 
 .troll {
-	background-image: url('/images/whack-a-troll.png');
+	background-image: url('/images/whack.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .troll:hover {
-	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack-a-troll.png');
+	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
