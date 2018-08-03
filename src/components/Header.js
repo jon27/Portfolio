@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header = ({ startLogout }) => (
+const Header = () => (
   <header className="header">
     <div className='header__container'>
       <div className='header__title'><h1>JON CABRE</h1></div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import {Row, Col, Card, CardTitle} from 'react-materialize';
-import { Link } from 'react-router';
 
 const ShowcaseProjects = () => (
 	<div id='projects' className="project-container">

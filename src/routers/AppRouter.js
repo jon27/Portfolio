@@ -4,17 +4,16 @@ import createHistory from 'history/createBrowserHistory';
 import DashboardPage from '../components/DashboardPage';
 import NotFoundPage from '../components/NotFoundPage';
 
-
-
+export const history = createHistory();
 
 const AppRouter = () => (
-  <Router >
-    <div>
-      <Switch>
-        <PublicRoute path="/" component={DashboardPage} />
+  <Router history={history}>
+  	<div>
+  		<Switch>
+        <Route path="/" component={DashboardPage} />
         <Route component={NotFoundPage} />
-      </Switch>
-    </div>
+  		</Switch>
+  	</div>
   </Router>
 );
 

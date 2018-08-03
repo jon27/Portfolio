@@ -1,10 +1,5 @@
 import React from 'react';
-import { Icon } from 'react-icons-kit';
-import {fire} from 'react-icons-kit/icomoon/fire';
-import {alertCircled} from 'react-icons-kit/ionicons/alertCircled';
-import {code} from 'react-icons-kit/feather/code';
-import {ic_devices} from 'react-icons-kit/md/ic_devices'
-import {Row, Col } from 'react-materialize';
+
 
 
 const ListSkills = () => (
