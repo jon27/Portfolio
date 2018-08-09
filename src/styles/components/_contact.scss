@@ -5,13 +5,22 @@
 }
 
 .contact__content {
-	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 		padding-bottom: 4rem;
 }
 
 .contact__item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin: 0 auto;
 	padding-bottom: $l-size;
 }

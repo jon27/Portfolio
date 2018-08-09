@@ -14,6 +14,9 @@
 }
 
 .project__row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0.8vh auto;
 }
@@ -24,11 +27,20 @@
 }
 
 .project__item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-end;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
 	width: 33%;
 	height: 30vh;
-	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	color: white;
 	margin: $m-size;
 	overflow: hidden;
@@ -60,7 +72,7 @@ margin: 0 auto;
 }
 
 
-// Expensify
+/* Expensify*/
 
 .exp {
 	background-image: url('/images/Expensify.PNG');
@@ -69,6 +81,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .exp:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/Expensify.PNG');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.PNG');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.PNG');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/Expensify.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -81,7 +96,7 @@ margin: 0 auto;
 	}
 }
 
-//OmniFood
+/*OmniFood*/
 
 .omni {
 	background-image: url('/images/omni.jpeg');
@@ -90,6 +105,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .omni:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/omni.jpeg');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/omni.jpeg');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/omni.jpeg');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/omni.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -101,7 +119,7 @@ margin: 0 auto;
 
 	}
 }
-// Whack A Troll
+/* Whack A Troll*/
 
 .troll {
 	background-image: url('/images/whack.JPG');
@@ -110,6 +128,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .troll:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/whack.JPG');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack.JPG');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack.JPG');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/whack.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -122,7 +143,7 @@ margin: 0 auto;
 	}
 }
 
-// Drummer
+/* Drummer*/
 
 .drum {
 	background-image: url('/images/drum.PNG');
@@ -131,6 +152,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .drum:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/drum.PNG');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/drum.PNG');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/drum.PNG');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/drum.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -143,7 +167,7 @@ margin: 0 auto;
 	}
 }
 
-//Tik tac toe
+/*Tik tac toe*/
 
 .tic {
 	background-image: url('/images/weather.PNG');
@@ -152,6 +176,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .tic:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/weather.PNG');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/weather.PNG');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/weather.PNG');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/weather.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -163,7 +190,7 @@ margin: 0 auto;
 
 	}
 }
-// Canvas Drawing
+/* Canvas Drawing*/
 
 .canvas {
 	background-image: url('/images/canvas.PNG');
@@ -172,6 +199,9 @@ margin: 0 auto;
 	background-position: center;
 }
 .canvas:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 206, 199, 0.6)), to(rgba(215, 206, 199, 0.6))), url('/images/canvas.PNG');
+	background: -webkit-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/canvas.PNG');
+	background: -o-linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/canvas.PNG');
 	background: linear-gradient(rgba(215, 206, 199, 0.6), rgba(215, 206, 199, 0.6)), url('/images/canvas.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;

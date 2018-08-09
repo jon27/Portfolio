@@ -16,7 +16,7 @@ const ShowcaseProjects = () => (
 					<div>
 						<p className='project-overlay'>Weather App</p>
 					</div>
-				</a>
+				</a>P
 				<a href='https://whack-a-troll.herokuapp.com/' target="_blank" className='project__item troll project__box '>
 					<div>
 						<p className='project-overlay'>Wack A Troll</p>

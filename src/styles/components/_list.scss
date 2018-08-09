@@ -2,8 +2,14 @@
   background: $off-white;
   border: 1px solid darken($off-white, 7%);
   color: $grey;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: $s-size $m-size;
 }
 
@@ -18,26 +24,51 @@
   border: 1px solid darken($off-white, 7%);
   border-top: none;
   color: $dark-grey;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: $s-size;
   text-decoration: none;
+  -webkit-transition: background .3s ease;
+  -o-transition: background .3s ease;
   transition: background .3s ease;
   &:hover {
     background: $off-white;
   }
   @media (min-width: $desktop-breakpoint) {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: $m-size;
   }
 }
 
 .list-item--message {
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: $grey;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: $m-size;
   &:hover {
     background: none;
